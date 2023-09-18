@@ -1,0 +1,82 @@
+body { 
+background-color: rgb(150, 194, 209);
+background-image: url("../image/Achtergrond-Zakynthos.JPG");
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode:overlay;
+}
+
+
+img { 
+
+    max-width:20em;
+    padding: 5em;
+    padding-top: 0em;
+}
+
+
+.h1-index {
+    font-family: 'Lucida Bright' Georgia, 'Times New Roman', Times, serif;
+    color: rgb(15, 36, 172);
+    font-size:5em;
+    margin-top: 3cm;
+    padding: 0.5em;
+  
+    
+}
+
+.h1-aboutme { 
+    color: rgb(15, 36, 172);
+    font-family: 'Lucida Bright' Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    padding-top: 3em;
+    padding-left: 1em;
+
+   
+
+}
+
+h2 {
+    color: rgb(15, 36, 172); 
+    padding-left: 1em;
+    padding-bottom: 1em;
+    font-family: 'Lucida Bright' Georgia, 'Times New Roman', Times, serif;
+    font-size: 1,75em;
+    
+}
+
+h3 {
+    color: rgb(15, 36, 172); 
+    padding-left: 1em;
+    padding-top: 3em;
+    font-family: 'Lucida Bright' Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+
+ul { 
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 1em;
+    text-transform:uppercase;
+    justify-content: space-between;
+    font-family:'Lucida Bright' Georgia, 'Times New Roman', Times, serif;
+    color: rgb(15, 36, 172);
+}
+
+a {
+    color: rgb(15, 36, 172);
+  
+}
+
+a:hover{
+    background: whitesmoke;
+    padding: 0,75em;
+    border-radius: 0.25em;
+}
+
+p{
+    color: rgb(15, 36, 172);
+    padding-left: 1em;
+
+}
