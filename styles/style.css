@@ -19,7 +19,7 @@ ol{
     color: #1A5276;}
 
 a { color: #1A5276;
-    transition: background 350ms ease;
+    transition: background 450ms ease;
 }
 
 a:hover{
@@ -64,6 +64,7 @@ h2 {
 p{
     color:#1A5276  ;
     padding-left: 1em;
+    padding-right: 1.5em;
     font-size: 1em;
     text-align: left;
     
@@ -101,6 +102,17 @@ p{
     border: dotted;
     color:#2980B9;
 }
+
+.scroll-img-bluecaves{
+    display: flex;
+    overflow: scroll;
+    height: 15em;
+    gap: 0.25em;
+    margin: 5em;
+
+   
+      
+}
 /*images*/
 img{
     max-width:23em;
@@ -126,7 +138,6 @@ img{
     display: flex;
     background-color:#2980B9;
     overflow:scroll;
-    white-space: nowrap;
     padding: 2em;
     border-radius: 1em;
     margin-bottom:2em;
