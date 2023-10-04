@@ -108,19 +108,22 @@ p{
     overflow: scroll;
     height: 15em;
     gap: 0.25em;
-    margin: 5em;
-
-   
-      
+    margin: 5em;  
 }
 /*images*/
 img{
     max-width:23em;
 }
+
 .image-index { 
     max-width:20em;
     padding: 5em;
     padding-top: 1em;
+}
+
+.image-beneden{
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
      
 .logo {
@@ -130,9 +133,8 @@ img{
 
 .panorama {
     max-width:100%;
-    padding-left: 0em;
-    padding-right: 0em;
-    height: min-content;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 .scroll-image{
     display: flex;
@@ -145,12 +147,12 @@ img{
     height: 20em;
     gap: 1em;
 }
-.links-foto-noordkaap{
+.links-foto{
     display: flex;
     padding: 1em;
 }
 
-.rechts-foto-noordkaap{
+.rechts-foto{
     display: flex;
     padding: 1em;
     align-items: center;
