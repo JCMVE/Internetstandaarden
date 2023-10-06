@@ -1,6 +1,6 @@
 body { 
 background-color: #EAF2F8;
-font-family: 'Lucida Bright' Georgia, 'Times New Roman', Times, serif;
+font-family: "Lucida Bright", Georgia, "Times New Roman", Times, serif;
 }
 
 nav ul { 
@@ -24,7 +24,6 @@ a { color: #1A5276;
 
 a:hover{
     background-color:floralwhite;
-    padding: 0.75em;
     border-radius: 0.25em;
     display:inline-block;  
 }
@@ -118,7 +117,7 @@ img{
     padding-top: 1em;
 }
 
-.image-beneden{
+.image-beneden-keri{
     margin-top: 2em;
     margin-bottom: 2em;
 }
